@@ -17,4 +17,15 @@ Tags: *reactjs*, *react-native*, *react-redux*
 
 
 ## 2. Lessons learned
-### SUBTILE
+### Expo CLI 2.0
+[Expo CLI 2.0 released](https://blog.expo.io/expo-cli-2-0-released-a7a9c250e99c)  
+
+### Can't find variable self
+Currently (at the date of this writing) a common issue. Can be fixed with the downgrading of "whatwg-fetch".
+```javascript
+npm add whatwg-fetch@2.0.4
+```
+[Thread to the solution](https://forums.expo.io/t/cant-find-variable-self/13547/7)  
+### componentWillReceiveProps() alternative
+(The app uses still the deprecated version and has to be updated to the alternative solution)
+[Replacing ‘componentWillReceiveProps’ with ‘getDerivedStateFromProps’](https://hackernoon.com/replacing-componentwillreceiveprops-with-getderivedstatefromprops-c3956f7ce607)  
