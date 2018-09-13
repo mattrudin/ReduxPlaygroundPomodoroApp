@@ -37,7 +37,7 @@ Instead of this:
 const Button = () => {
 	return(
 		<TouchableOpacity>
-			I'm a Button, press me!
+			I`m a Button, press me!
 		</TouchableOpacity>
 	)
 }
@@ -46,7 +46,7 @@ Do this, without the return keyword (take a look a the parenthesis):
 ```javascript
 const Button = () => (
 	<TouchableOpacity>
-		I'm a Button, press me!
+		I`m a Button, press me!
 	</TouchableOpacity>
 )
 ```
